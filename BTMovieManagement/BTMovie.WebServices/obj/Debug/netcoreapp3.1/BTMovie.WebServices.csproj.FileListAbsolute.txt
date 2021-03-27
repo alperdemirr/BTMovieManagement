@@ -1,0 +1,12 @@
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\bin\Debug\netcoreapp3.1\BTMovie.WebServices.deps.json
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\bin\Debug\netcoreapp3.1\BTMovie.WebServices.dll
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.csprojAssemblyReference.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.AssemblyInfoInputs.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.AssemblyInfo.cs
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\bin\Debug\netcoreapp3.1\BTMovie.WebServices.pdb
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.dll
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.pdb
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\bin\Debug\netcoreapp3.1\BTMovie.Dto.dll
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\bin\Debug\netcoreapp3.1\BTMovie.Dto.pdb
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.csproj.CoreCompileInputs.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.WebServices\obj\Debug\netcoreapp3.1\BTMovie.WebServices.csproj.CopyComplete

@@ -1,0 +1,113 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = null;
+}
+@model UserVM
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Login V6</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--===============================================================================================-->
+    <link rel="icon" type="~/Login_Template/image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/fonts/iconic/css/material-design-iconic-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/css/util.css">
+    <link rel="stylesheet" type="text/css" href="~/Login_Template/css/main.css">
+    <!--===============================================================================================-->
+</head>
+
+<body>
+    <div class="limiter">
+        <div class="container-login100">
+            <div class="wrap-login100 p-t-85 p-b-20">
+                <div class="login100-form validate-form" data-id="formLogin">
+                    <span class="login100-form-title p-b-30">
+                        Kullanıcı Kayıt
+                    </span>
+                    @if (TempData["err"] != null)
+                    {
+                        <div class="alert alert-warning">
+                            @TempData["err"]
+                        </div>
+                    }
+
+                    <span class="login100-form-avatar">
+                        <img src="~/petrolofisi_logo.png" />
+                    </span>
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <form asp-action="CreateUser" asp-controller="Login" method="post">
+                        <div class="wrap-input100 validate-input m-t-45 m-b-35" data-validate="Enter username">
+                            <input placeholder="İsim" class="input100" id="username" type="text" asp-for="@Model.name" required>
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+                            <input placeholder="Soyisim" class="input100" id="username" type="text" asp-for="@Model.surname" required>
+                            <span class="focus-input100"></span>
+                        </div>
+                        <div class="wrap-input100 validate-input m-t-45 m-b-35" data-validate="Enter username">
+                            <input placeholder="Kullanıcı Adı" class="input100" id="username" type="text" asp-for="@Model.userName" required>
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="wrap-input100 validate-input m-b-50" data-validate="Enter password">
+                            <input placeholder="Şifre Giriniz" class="input100" id="password" type="password" asp-for="@Model.password" required>
+                            <span class="focus-input100"></span>
+                        </div>
+
+                        <div class="container-login100-form-btn">
+                            <button type="submit" class="login100-form-btn" id="btnlogin">
+                                Kayıt ol
+                            </button>
+                        </div>
+
+                    </form>
+                    <div class="container-login100-form-btn">
+                        <a asp-action="Index" asp-controller="Login" class="login100-form-btn" id="btnlogin">Giriş Yap</a>
+                    </div>
+                    <ul class="login-more p-t-50">
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===============================================================================================-->
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/vendor/bootstrap/js/popper.js"></script>
+    <script src="~/Login_Template/vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/vendor/daterangepicker/moment.min.js"></script>
+    <script src="~/Login_Template/vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="~/Login_Template/js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script>
+    </script>
+
+</body>
+</html>

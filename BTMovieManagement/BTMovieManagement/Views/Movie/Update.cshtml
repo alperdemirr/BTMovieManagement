@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model OMDBMovieList
+
+<div class="col-lg-4">
+    <div class="card" style="width: 18rem;">
+        <img class="card-img-top" src="@Model.Poster" alt="Card image cap">
+    </div>
+    <form asp-action="Update" asp-controller="Movie" method="post">
+        <input type="hidden" asp-for="@Model.Id" />
+        <input type="hidden" asp-for="@Model.CreateDate" />
+        <input type="hidden" asp-for="@Model.Gid" />
+        <input type="hidden" asp-for="@Model.imdbID" />
+        <input type="hidden" asp-for="@Model.Poster" />
+        <input type="hidden" asp-for="@Model.Type" />
+
+        <input type="text" asp-for="@Model.Title" />
+        <input type="text" asp-for="@Model.Year" />
+        <input type="submit" value="Güncelle" class="btn btn-primary" />
+    </form>
+</div>

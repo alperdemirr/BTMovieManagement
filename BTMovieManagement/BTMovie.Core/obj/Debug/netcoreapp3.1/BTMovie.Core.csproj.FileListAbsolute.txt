@@ -1,0 +1,9 @@
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\bin\Debug\netcoreapp3.1\BTMovie.Core.deps.json
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\bin\Debug\netcoreapp3.1\BTMovie.Core.dll
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\bin\Debug\netcoreapp3.1\BTMovie.Core.pdb
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.csprojAssemblyReference.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.AssemblyInfoInputs.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.AssemblyInfo.cs
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.csproj.CoreCompileInputs.cache
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.dll
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovie.Core\obj\Debug\netcoreapp3.1\BTMovie.Core.pdb

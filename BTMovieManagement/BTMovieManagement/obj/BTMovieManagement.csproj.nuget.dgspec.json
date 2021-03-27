@@ -1,0 +1,366 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovieManagement\\BTMovieManagement.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\BTMovie.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\BTMovie.Core.csproj",
+        "projectName": "BTMovie.Core",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\BTMovie.Core.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\BTMovie.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\BTMovie.DataAccess.csproj",
+        "projectName": "BTMovie.DataAccess",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\BTMovie.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\BTMovie.Core.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Core\\BTMovie.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj",
+        "projectName": "BTMovie.Dto",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\BTMovie.Plugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\BTMovie.Plugin.csproj",
+        "projectName": "BTMovie.Plugin",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\BTMovie.Plugin.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\BTMovie.WebServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\BTMovie.WebServices.csproj",
+        "projectName": "BTMovie.WebServices",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\BTMovie.WebServices.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovieManagement\\BTMovieManagement.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovieManagement\\BTMovieManagement.csproj",
+        "projectName": "BTMovieManagement",
+        "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovieManagement\\BTMovieManagement.csproj",
+        "packagesPath": "C:\\Users\\Alper.Demir\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovieManagement\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Alper.Demir\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\BTMovie.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.DataAccess\\BTMovie.DataAccess.csproj"
+              },
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Dto\\BTMovie.Dto.csproj"
+              },
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\BTMovie.Plugin.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.Library\\BTMovie.Plugin.csproj"
+              },
+              "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\BTMovie.WebServices.csproj": {
+                "projectPath": "C:\\Users\\Alper.Demir\\source\\repos\\BTMovieManagement\\BTMovie.WebServices\\BTMovie.WebServices.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
