@@ -94,3 +94,4 @@ C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovieManagement\bin\Debug\
 C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovieManagement\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Index.cshtml.g.cs
 C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovieManagement\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Update.cshtml.g.cs
 C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovieManagement\obj\Debug\netcoreapp3.1\Razor\Views\Error\Error.cshtml.g.cs
+C:\Users\Alper.Demir\source\repos\BTMovieManagement\BTMovieManagement\obj\Debug\netcoreapp3.1\Razor\Views\Movie\Add.cshtml.g.cs

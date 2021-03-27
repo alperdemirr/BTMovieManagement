@@ -30,6 +30,30 @@ namespace BTMovieManagement.Controllers
             }
 
         }
+        [HttpGet]
+        public IActionResult Add()
+        {
+            return View();
+        }
+        [HttpPost]
+        public IActionResult Add(OMDBMovieList model)
+        {
+            try
+            {
+                model.CreateDate = DateTime.Now;
+                model.Gid = Guid.NewGuid().ToString();
+                omdbMovieService.Add(model);
+                TempData["err"] = "Başarı ile eklendi";
+                return RedirectToAction("Index");
+            }
+            catch (Exception)
+            {
+                //log
+                TempData["err"] = "Beklenmeyen bir hata oluştu.";
+                return RedirectToAction("Index");
+            }
+
+        }
         [HttpPost]
         public IActionResult Delete(int Id)
         {

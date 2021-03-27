@@ -1,0 +1,31 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model OMDBMovieList
+<form asp-action="Add" asp-controller="Movie" method="post">
+    <div class="form-group">
+        <label for="exampleInputEmail1">Başlık</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Başlık" asp-for="Title" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Yıl</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Yıl"  asp-for="Year" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">IMDB ID</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="IMDB ID"  asp-for="imdbID" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Poster</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Poster"  asp-for="Poster" required>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Tür</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tür" asp-for="Type" required>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+</form>
